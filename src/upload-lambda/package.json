@@ -1,0 +1,13 @@
+{
+  "name": "upload-lambda",
+  "version": "1.0.0",
+  "description": "Recibe imágenes por POST /upload (API Gateway) y las guarda en S3 bajo uploads/",
+  "private": true,
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.700.0",
+    "busboy": "^1.6.0",
+    "uuid": "^9.0.1"
+  }
+}
